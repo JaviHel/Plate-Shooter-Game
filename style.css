@@ -1,0 +1,184 @@
+/* GENERAL STYLE */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cac9c9;
+}
+
+/* TITLE */
+
+h1 {
+    text-align:center;
+    color: red;
+    font-family: cambria;
+
+    user-select: none;
+}
+
+#container {
+/* BOX PROPORTIONS */
+    height: 580px; /* 580px */
+    width: 1000px; /* 1000px */
+    background-color: transparent;
+    border: 5px solid #00000000; /* transparent */
+    
+/* POSITION */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate:-50% -50%;
+/* INNER BOX POSITION */
+    display:;
+    justify-content:;
+    align-items:;
+/* OTHERS */
+    user-select: none;
+    cursor: crosshair;
+}
+
+/* BUTTON - THROW PLATE */
+
+ button {
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    cursor: pointer;
+}
+
+/* CLASS PLATES */
+
+.plate-style {
+/* BOX PROPORTIONS */
+    height: 60px; /* From 20px To 80px*/
+    width: 60px;
+    background-color: white;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+/* BOX POSITION */
+    position: absolute;
+    top: 50%; /*From 2% To 98%*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+/* TEXT POSITION */
+    display: none;
+    align-items: center; /* Vertically */
+    justify-content: center; /* Horizontally */
+/* OTHERS */
+    user-select: none;
+    cursor: crosshair;
+}
+
+/* LAST SCORE DIV */
+
+#last-score {
+/* BOX PROPORTIONS */
+    height: 20px; 
+    width: fit-content;
+    background-color: #ffffff00;
+    border: 1px solid #3f51b500;
+    border-radius: 4px;
+/* BOX POSITION */
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+/* TEXT POSITION */
+    display: flex;
+    flex-wrap: ;
+    flex-direction:;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: x-large;
+/* OTHERS */
+    cursor: crosshair;
+    user-select: none;
+}
+
+/* LAST SCORE POINTS DIV */
+
+#last-score-pts {
+    /* BOX POSITION */
+    position: absolute;
+    top: 220%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* SCORE DIV */
+
+#score {
+/* BOX PROPORTIONS */
+    height: 20px; 
+    width: fit-content;
+    background-color: #ffffff00;
+    border: 1px solid #3f51b500;
+    border-radius: 4px;
+/* BOX POSITION */
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+/* TEXT POSITION */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: x-large;
+/* OTHERS */
+    cursor: crosshair;
+    user-select: none;
+}
+
+/* POINTS NUMBER DIV */
+
+#pts {
+    /* BOX POSITION */
+    position: absolute;
+    top: 220%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* HIGHSCORE DIV */
+
+#highscore {
+    /* BOX PROPORTIONS */
+    height: 20px; 
+    width: fit-content;
+    background-color: #ffffff00;
+    border: 1px solid #3f51b500;
+    border-radius: 4px;
+/* BOX POSITION */
+    position: absolute;
+    top: 12%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+/* TEXT POSITION */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: x-large;
+/* OTHERS */
+    cursor: crosshair;
+    user-select: none;
+}
+
+/* HIGHSCORE POINTS NUMBER DIV */
+
+#high-score {
+    /* BOX POSITION */
+    position: absolute;
+    top: 220%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
